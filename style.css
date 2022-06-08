@@ -1,0 +1,50 @@
+#counter{
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  margin: auto; 
+  
+}
+  
+.campoNumero{ 
+  margin: 0;
+  display: flex;/*definindo a div como element flexivel*/
+  height: 4rem;
+  width: 4rem;
+  box-sizing: border-box;
+  border: 2px solid red;  
+  justify-content: center; /*centraliza texto horizontalmente*/
+  align-items: center; 
+  align-items: right;  
+  float: right;  
+  margin: auto;
+  margin-left: 11%;
+  margin-right:11%;
+}
+
+
+.btn1,
+.btn2{
+display: flex;
+justify-content: center;
+align-items: center;
+width:3rem; 
+height:3rem;
+font-size: 1.5rem;
+color: rgb(246, 255, 0);
+background-color: black;
+border-radius: 50%;
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+}
+.btn1{
+  float: left;
+  margin-left: 11%;
+  margin-right:11%;
+}
+
+.btn2{
+  float: left;
+  margin-left: 11%;
+  margin-right:11%;
+}
